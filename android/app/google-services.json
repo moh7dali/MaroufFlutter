@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846958402927",
+    "firebase_url": "https://Marouf-a63a3.firebaseio.com",
+    "project_id": "Marouf-a63a3",
+    "storage_bucket": "Marouf-a63a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846958402927:android:3933fcdc0e3da0e1",
+        "android_client_info": {
+          "package_name": "com.mozaic.www.maroufcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846958402927-ikub0mvfaojhato05pcmgrti1njmdd4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_maMhSzKCjiuxHT4wom7AqnZs0yTDtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846958402927-ikub0mvfaojhato05pcmgrti1njmdd4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

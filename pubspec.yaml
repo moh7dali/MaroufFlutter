@@ -1,0 +1,106 @@
+name: Marouf
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Call library here
+  # startLibraries
+  cupertino_icons: ^1.0.5
+  flutter_screenutil: ^5.6.0
+  pin_code_fields: ^7.4.0
+  dismissible_page: ^1.0.1
+  device_info_plus: ^8.0.0
+  shared_preferences: ^2.0.15
+  get: ^4.6.5
+  intl: ^0.18.0
+  permission_handler: ^10.2.0
+  package_info_plus: ^3.0.2
+  cached_network_image: ^3.2.1
+  carousel_slider: ^4.1.1
+  flutter_lints: ^2.0.1
+  android_intent_plus: ^3.1.1
+  infinite_scroll_pagination: ^3.2.0
+  flutter_svg: ^1.1.0
+  url_launcher: ^6.1.3
+  qr_flutter: ^4.0.0
+  open_store: ^0.5.0
+  share_plus: ^6.3.0
+  pagination_view: ^2.0.0
+  fl_paging: ^2.2.0
+  tuple: ^2.0.0
+  bordered_text: ^2.0.0
+  firebase_messaging: ^14.2.1
+  firebase_core: ^2.4.1
+  geocoding: ^2.1.0
+  onesignal_flutter: ^3.0.0
+  google_maps_flutter: ^2.2.5
+  uuid: ^3.0.6
+  geocode: ^1.0.2
+  http: ^0.13.4
+  shimmer: ^2.0.0
+#  otp_autofill: ^2.1.0
+  flutter_rating_bar: ^4.0.1
+  huawei_hmsavailability: ^6.4.0+303
+#  alt_sms_autofill: ^1.0.0
+  scroll_to_index: ^3.0.1
+  huawei_map: ^6.5.0+301
+#  sms_autofill: ^2.2.0
+  huawei_push: ^6.3.0+304
+  video_player: ^2.4.3
+  modal_bottom_sheet: ^2.1.0
+  simple_animations: ^5.0.0+3
+  add_to_cart_animation: ^2.0.3
+  fluttertoast: ^8.0.9
+  facebook_app_events: ^0.18.3
+  connectivity_plus: ^3.0.2
+  webview_flutter: ^4.0.2
+  geolocator: ^9.0.2
+  # endLibraries
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+ uses-material-design: true
+
+ assets:
+   - assets/
+   - assets/gif/
+   - assets/icons/
+   - assets/images/
+   - assets/json/
+   - assets/json/symbols/
+
+
+ fonts:
+   - family: bangle
+     fonts:
+       - asset: fonts/Bangla_MN.ttf
+       - asset: fonts/Bangla_MN_Bold.ttf
+   - family: cac
+     fonts:
+       - asset: fonts/cac_champagne.ttf
+   - family: pangram
+     fonts:
+       - asset: fonts/Pangram-Regular.ttf
+       - asset: fonts/Pangram-Bold.ttf
+   - family: pdfInTextUniversal
+     fonts:
+       - asset: fonts/pfdintextuniversal-regular.otf
+       - asset: fonts/pfdintextuniversal-bold.otf
